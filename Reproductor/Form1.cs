@@ -58,6 +58,7 @@ namespace Reproductor
         private void trackBar1_Scroll(object sender, EventArgs e)
         {
             axWindowsMediaPlayer1.settings.volume  = (int)trackBar1.Value*10;
+            
         }
 
         private void button5_Click(object sender, EventArgs e)
